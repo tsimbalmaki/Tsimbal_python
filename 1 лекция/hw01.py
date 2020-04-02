@@ -53,7 +53,7 @@ print("Дискриминант = " + str(disk))
 if disk < 0:
   print("Корней нет")
 elif disk == 0:
-  x = -b / 2 * a
+  x = -b / (2 * a)
   print (x)
 else:
   x1 = (-b + math.sqrt(disk)) / (2 * a)
